@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: tps43
+    - name: tps43_zmk
       remote: tps43-remote
       revision: main
   self:
