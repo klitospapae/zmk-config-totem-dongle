@@ -2,6 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: tps43
+      path: modules/tps43
+      url: https://github.com/klitospapae/zmk-config-totem-dongle
+      revision: tps43_dev
   projects:
     - name: zmk
       remote: zmkfirmware
