@@ -5,8 +5,10 @@ include:
   - board: xiao_ble//zmk
     shield: totem_right
     snippet: zmk-usb-logging
+    cmake-args: "-DCONFIG_INPUT_LOG_LEVEL_DBG=y -DCONFIG_I2C_LOG_LEVEL_DBG=y -DCONFIG_LOG_MODE_IMMEDIATE=y"
     artifact-name: totem_right_debug
   - board: xiao_ble//zmk
     shield: totem_dongle
     snippet: zmk-usb-logging
+    cmake-args: "-DCONFIG_INPUT_LOG_LEVEL_DBG=y -DCONFIG_I2C_LOG_LEVEL_DBG=y -DCONFIG_LOG_MODE_IMMEDIATE=y"
     artifact-name: totem_dongle_debug
