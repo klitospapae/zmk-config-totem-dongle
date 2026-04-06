@@ -6,13 +6,13 @@
 #
 ---
 include:
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: totem_left
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: totem_right
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: totem_dongle
-  - board: promicro_nrf52840
+  - board: promicro_nrf52840//zmk
     shield: totem_dongle
-  - board: xiao_ble
+  - board: xiao_ble//zmk
     shield: settings_reset
