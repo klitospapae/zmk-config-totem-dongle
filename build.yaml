@@ -12,7 +12,7 @@ include:
     shield: totem_right
   - board: xiao_ble//zmk
     shield: totem_dongle
-  - board: nrfmicro/nrf52840/zmk
+  - board: nrfmicro@1.3/nrf52840/zmk
     shield: totem_dongle
   - board: xiao_ble//zmk
     shield: settings_reset
