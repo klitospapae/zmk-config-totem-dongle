@@ -3,7 +3,7 @@ id: totem
 name: TOTEM
 type: shield
 url: https://github.com/GEIGEIGEIST/TOTEM
-requires: [xiao_ble, promicro_nrf52840]
+requires: [xiao_ble, nice_nano]
 features:
   - keys
 siblings:
